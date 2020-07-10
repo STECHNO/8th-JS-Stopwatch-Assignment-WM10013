@@ -1,0 +1,133 @@
+.intro{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.counter{
+    text-align: center;
+}
+
+.counter h1{
+    display: inline-block;
+    font-size: 292px;
+    font-weight: lighter;
+    width: 300px;
+}
+
+@media only screen and (max-width: 1426px) {
+    .counter h1 {
+      font-size: 192px;
+      width: 250px;
+    }
+}
+
+@media only screen and (max-width: 1426px) {
+    .counter h2 {
+        display: inline-block;
+        font-size: 200px !important;
+        font-weight: lighter;
+        vertical-align: bottom;
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+    .counter h1 {
+      font-size: 100px;
+      width: 150px;
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+    .counter h2 {
+        display: inline-block;
+        font-size: 115px !important;
+        font-weight: lighter;
+        vertical-align: bottom;
+    }
+}
+
+@media only screen and (max-width: 904px) {
+    .counter h1 {
+      font-size: 60px;
+      width: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 904px) {
+    .counter h2 {
+        display: inline-block;
+        font-size: 70px !important;
+        font-weight: lighter;
+        vertical-align: bottom;
+    }
+}
+
+@media only screen and (max-width: 904px) {
+    .btn{
+        border-radius: 50% !important;
+        height: 70px !important;
+        width: 70px !important;
+        margin: 5px !important;
+        padding: 2px !important;
+    }
+}
+
+
+@media only screen and (max-width: 474px) {
+    .counter h1 {
+      font-size: 50px;
+      width: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 474px) {
+    .counter h2 {
+        display: inline-block;
+        font-size: 60px !important;
+        font-weight: lighter;
+        vertical-align: bottom;
+    }
+}
+
+@media only screen and (max-width: 474px) {
+    .btn{
+        border-radius: 50% !important;
+        height: 50px !important;
+        width: 50px !important;
+        margin: 5px !important;
+        padding: 2px !important;
+    }
+}
+
+.counter h2{
+    display: inline-block;
+    font-size: 300px;
+    font-weight: lighter;
+    vertical-align: bottom;
+}
+
+.counter-buttons{
+    text-align: center;
+}
+
+.btn{
+    border-radius: 50% !important;
+    height: 100px;
+    width: 100px;
+    margin: 5px !important;
+}
+
+.noshow{
+    display: none;
+}
+
+.lap-counter{
+    margin: 0 auto !important;
+    text-align: center !important;
+    margin-top: 55px !important;
+    height: 300px !important;
+    font-size: 32px !important;
+    font-weight: 300;
+    overflow: auto;
+    width: 400px;
+}
